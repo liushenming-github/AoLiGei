@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="pokemonListModel"
+            type="com.hi.dhl.pokemon.model.PokemonItemModel" />
+
+        <variable
+            name="viewModel"
+            type="com.hi.dhl.pokemon.ui.detail.DetailViewModel" />
+
+        <variable
+            name="albumAdapter"
+            type="com.hi.dhl.pokemon.ui.detail.AlbumAdapter" />
+    </data>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</layout>
